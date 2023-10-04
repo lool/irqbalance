@@ -40,6 +40,8 @@
 
 #define LINESIZE 4096
 
+const char *proc_interrupts_path = "/proc/interrupts";
+
 static int proc_int_has_msi = 0;
 static int msi_found_in_sysfs = 0;
 
@@ -213,7 +215,7 @@ GList* collect_full_irq_list()
 	char *line = NULL;
 	size_t size = 0;
 
-	file = fopen("/proc/interrupts", "r");
+	file = fopen(proc_interrupts_path, "r");
 	if (!file)
 		return NULL;
 
@@ -269,7 +271,7 @@ void parse_proc_interrupts(void)
 	size_t size = 0;
 	int ret;
 
-	file = fopen("/proc/interrupts", "r");
+	file = fopen(proc_interrupts_path, "r");
 	if (!file)
 		return;
 
@@ -333,7 +335,7 @@ void parse_proc_interrupts(void)
 		while (1) {
 			uint64_t C;
 			C = strtoull(c, &c2, 10);
-			if (c==c2 || !strchr(" \t", *c2)) /* end of numbers */
+			if (c==c2) /* end of numbers */
 				break;
 			count += C;
 			c=c2;

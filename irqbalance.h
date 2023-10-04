@@ -32,6 +32,7 @@
 #define	NUMA_NO_NODE (-1)
 
 extern char *classes[];
+extern const char *proc_interrupts_path;
 
 extern void parse_cpu_tree(void);
 extern void clear_work_stats(void);
@@ -56,6 +57,8 @@ void dump_tree(void);
 void activate_mappings(void);
 void clear_cpu_tree(void);
 void free_cpu_topo(gpointer data);
+
+int irqbalance_main(int argc, char** argv);
 /*===================NEW BALANCER FUNCTIONS============================*/
 
 /*

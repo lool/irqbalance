@@ -41,17 +41,24 @@ if STATICBUILD
 irqbalance_LDFLAGS = -Wl,-Bstatic
 endif
 
-irqbalance_SOURCES = activate.c bitmap.c classify.c cputree.c irqbalance.c \
+# shared with unit tests
+common_SOURCES = activate.c bitmap.c classify.c cputree.c irqbalance.c \
 	irqlist.c numa.c placement.c procinterrupts.c
 if THERMAL
-irqbalance_SOURCES += thermal.c
+common_SOURCES += thermal.c
 endif
+irqbalance_SOURCES = $(common_SOURCES) main.c
 irqbalance_LDADD = $(LIBCAP_NG_LIBS) $(GLIB2_LIBS) $(NUMA_LIBS) $(LIBNL3_LIBS)
 if IRQBALANCEUI
 irqbalance_ui_SOURCES = $(UI_DIR)/helpers.c $(UI_DIR)/irqbalance-ui.c \
 	$(UI_DIR)/ui.c
 irqbalance_ui_LDADD = $(GLIB2_LIBS) $(NUMA_LIBS) $(CURSES_LIBS)
 endif
+
+check_PROGRAMS = testprocinterrupts
+testprocinterrupts_SOURCES = testprocinterrupts.c $(common_SOURCES)
+testprocinterrupts_LDADD = $(irqbalance_LDADD)
+TESTS = testprocinterrupts
 
 dist_man_MANS = irqbalance.1
 if IRQBALANCEUI

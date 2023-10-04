@@ -601,7 +601,7 @@ int init_socket()
 }
 #endif
 
-int main(int argc, char** argv)
+int irqbalance_main(int argc, char** argv)
 {
 	sigset_t sigset, old_sigset;
 	int ret = EXIT_SUCCESS;
