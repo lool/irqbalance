@@ -184,6 +184,10 @@ Provides a cpulist which irqbalance should ignore and never assign interrupts to
 If not specified, irqbalance use mask of isolated and adaptive-ticks CPUs on the
 system as the default value.
 
+.TP
+.B IRQBALANCE_PROC_INTERRUPTS
+Overrides the default path of /proc/interrupts file; useful for testing.
+
 .SH "SIGNALS"
 .TP
 .B SIGHUP

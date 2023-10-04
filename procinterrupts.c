@@ -206,6 +206,15 @@ void init_irq_class_and_type(char *savedline, struct irq_info *info, int irq)
 	info->name = strdup(irq_fullname);
 }
 
+const char* proc_interrupts_path()
+{
+	char *env = getenv("IRQBALANCE_PROC_INTERRUPTS");
+	if (env && strlen(env))  {
+                return env;
+        }
+	return "/proc/interrupts";
+}
+
 GList* collect_full_irq_list()
 {
 	GList *tmp_list = NULL;
@@ -213,7 +222,7 @@ GList* collect_full_irq_list()
 	char *line = NULL;
 	size_t size = 0;
 
-	file = fopen("/proc/interrupts", "r");
+	file = fopen(proc_interrupts_path(), "r");
 	if (!file)
 		return NULL;
 
@@ -269,7 +278,7 @@ void parse_proc_interrupts(void)
 	size_t size = 0;
 	int ret;
 
-	file = fopen("/proc/interrupts", "r");
+	file = fopen(proc_interrupts_path(), "r");
 	if (!file)
 		return;
 
