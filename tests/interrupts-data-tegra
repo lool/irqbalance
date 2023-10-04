@@ -1,0 +1,187 @@
+CPU0       CPU1       CPU2       CPU3       CPU4       CPU5       CPU6       CPU7       CPU8       CPU9       CPU10      CPU11      
+ 13:      22689      14543      14121      13576      10508       9335       7924       7962      11369      10236       7947       7473     GICv3  26 Level     arch_timer
+ 14:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  51 Level     bc00000.rtcpu
+ 18:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 408 Level     tegra_dce_isr
+ 19:         22          0          0          0          0          0          0          0          0          0          0          0     GICv3 409 Level     tegra_dce_isr
+ 20:         97          0          0          0          0          0          0          0          0          0          0          0     GICv3 214 Level     b950000.tegra-hsp
+ 21:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 215 Level     b950000.tegra-hsp
+ 22:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 216 Level     b950000.tegra-hsp
+ 23:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 217 Level     b950000.tegra-hsp
+ 26:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 100 Level     gk20a_stall
+ 27:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 102 Level     gk20a_stall
+ 28:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 103 Level     gk20a_stall
+ 29:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  99 Level     gk20a_nonstall
+ 31:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  32 Level     tegra186-timer
+ 96:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 108 Level     gpcdma.1
+ 97:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 109 Level     gpcdma.2
+ 98:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 110 Level     gpcdma.3
+ 99:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 111 Level     gpcdma.4
+100:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 112 Level     gpcdma.5
+101:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 113 Level     gpcdma.6
+102:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 114 Level     gpcdma.7
+103:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 115 Level     gpcdma.8
+104:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 116 Level     gpcdma.9
+105:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 117 Level     gpcdma.10
+106:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 118 Level     gpcdma.11
+107:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 119 Level     gpcdma.12
+108:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 120 Level     gpcdma.13
+109:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 121 Level     gpcdma.14
+110:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 122 Level     gpcdma.15
+111:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 123 Level     gpcdma.16
+127:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 255 Level     2c00000.memory-controller
+130:          2          0          0          0          0          0          0          0          0          0          0          0     GICv3  57 Level     3160000.i2c
+131:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  59 Level     3180000.i2c
+132:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  60 Level     3190000.i2c
+133:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  62 Level     31b0000.i2c
+134:        108          0          0          0          0          0          0          0          0          0          0          0     GICv3  63 Level     31c0000.i2c
+136:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  65 Level     31e0000.i2c
+137:       6305          0          0          0          0          0          0          0          0          0          0          0     GICv3  97 Level     mmc0
+138:        512          0          0          0        303          0          0          0          0          0          0          0     GICv3  92 Level     snd_hda_tegra
+139:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 199 Level     3610000.usb
+140:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 198 Level     3550000.usb
+141:        483          0          0          0          0          0          0          0          0          0          0          0     GICv3 195 Level     xhci-hcd:usb1
+142:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 196 Level     3610000.usb
+143:      11572          0          0          0          0          0          0          0          0          0          0          0     GICv3 208 Level     3c00000.hsp
+144:         15          0          0          0          8          0          0          0          0          0          0          0     GICv3 152 Level     3c00000.hsp
+145:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 153 Level     3c00000.hsp
+146:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 154 Level     3c00000.hsp
+147:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 155 Level     3c00000.hsp
+148:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 156 Level     3c00000.hsp
+149:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 157 Level     3c00000.hsp
+150:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 158 Level     3c00000.hsp
+151:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 159 Level     3c00000.hsp
+152:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 368 Level     tegra-p2u-intr
+153:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 369 Level     tegra-p2u-intr
+154:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 370 Level     tegra-p2u-intr
+155:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 371 Level     tegra-p2u-intr
+156:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 372 Level     tegra-p2u-intr
+157:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 373 Level     tegra-p2u-intr
+158:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 374 Level     tegra-p2u-intr
+159:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 375 Level     tegra-p2u-intr
+160:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 376 Level     tegra-p2u-intr
+161:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 377 Level     tegra-p2u-intr
+162:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 378 Level     tegra-p2u-intr
+163:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 379 Level     tegra-p2u-intr
+164:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 380 Level     tegra-p2u-intr
+165:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 381 Level     tegra-p2u-intr
+166:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 382 Level     tegra-p2u-intr
+167:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 383 Level     tegra-p2u-intr
+168:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 235 Level     tegra-p2u-intr
+169:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 252 Level     tegra-p2u-intr
+170:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 253 Level     tegra-p2u-intr
+171:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 254 Level     tegra-p2u-intr
+172:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 140 Level     tegra-p2u-intr
+173:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 141 Level     tegra-p2u-intr
+174:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 142 Level     tegra-p2u-intr
+175:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 143 Level     tegra-p2u-intr
+176:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 270 Level     arm-smmu global fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault
+177:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 274 Level     arm-smmu global fault, arm-smmu-context-fault
+178:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 205 Level     b600000.sce-fabric
+179:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 207 Level     be00000.rce-fabric
+180:       4672          0          0          0          0          0          0          0          0          0          0          0     GICv3 165 Level     c150000.hsp
+181:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 166 Level     c150000.hsp
+182:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 167 Level     c150000.hsp
+183:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 168 Level     c150000.hsp
+184:         18          0          0          0          0          0          0          0          0          0          0          0     GICv3  58 Level     c240000.i2c
+185:         81          0          0          0          0          0          0          0          0          0          0          0     GICv3  64 Level     c250000.i2c
+190:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 204 Level     c600000.aon-fabric
+191:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 206 Level     d600000.bpmp-fabric
+192:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 413 Level     de00000.dce-fabric
+193:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 272 Level     arm-smmu global fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault
+194:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 202 Level     arm-smmu global fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault, arm-smmu-context-fault
+195:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 264 Level     arm-smmu global fault, arm-smmu-context-fault
+196:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 263 Level     13a00000.cbb-fabric
+197:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 480 Level     host1x_syncpt
+198:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 481 Level     host1x_syncpt
+199:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 482 Level     host1x_syncpt
+200:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 483 Level     host1x_syncpt
+201:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 484 Level     host1x_syncpt
+202:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 485 Level     host1x_syncpt
+203:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 486 Level     host1x_syncpt
+204:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 487 Level     host1x_syncpt
+205:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 295 Level     host1x_general
+206:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 392 Level     tegra-pcie-intr
+208:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  77 Level     tegra-pcie-intr, PCIe PME, aerdrv, wch
+210:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3  83 Level     tegra-pcie-intr, PCIe PME, aerdrv
+212:        341          0          0          0          0          0          0          0          0          0          0          0     GICv3  85 Level     tegra-pcie-intr, PCIe PME, aerdrv, snd_hda_intel:card3
+214:          1          0          0          0          0          0          0          0          0          0          0          0     GICv3 386 Level     tegra-pcie-intr, PCIe PME, aerdrv
+216:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 579 Level     arm_dsu_0
+217:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 580 Level     arm_dsu_1
+218:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 581 Level     arm_dsu_2
+219:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3  23 Level     arm-pmu
+220:          0          0          0          0          0          0          0          0          0          0          0          0  c360000.pmc  73 Level     c2a0000.rtc
+221:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 266 Level     pva-isr
+222:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 464 Level     pva-isr
+223:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 465 Level     pva-isr
+224:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 466 Level     pva-isr
+225:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 467 Level     pva-isr
+226:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 468 Level     pva-isr
+227:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 469 Level     pva-isr
+228:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 470 Level     pva-isr
+229:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 471 Level     pva-isr
+230:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 269 Level     158c0000.nvdla1
+231:          0          0          0          0          0          0          0          0          0          0          0          0     GICv3 268 Level     15880000.nvdla0
+234:          0          0          0          0          0          0          0          0          0          0          0          0  2200000.gpio  35 Edge      Force Recovery
+235:          0          0          0          0          0          0          0          0          0          0          0          0  c2f0000.gpio  27 Edge      Power
+236:          0          0          0          0          0          0          0          0          0          0          0          0  2200000.gpio  37 Edge      Suspend
+238:          0          0          0          0          0          0          0          0          0          0          0          0  2200000.gpio  70 Level     6-0028
+239:         30          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395200 Edge      nvme0q0
+242:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 673841153 Edge      pcie-dpc
+244:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 675282945 Edge      pcie-dpc
+245:        528          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395201 Edge      nvme0q1
+246:        518          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395202 Edge      nvme0q2
+247:        394          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395203 Edge      nvme0q3
+248:        700          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395204 Edge      nvme0q4
+249:        374          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395205 Edge      nvme0q5
+250:        285          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395206 Edge      nvme0q6
+251:        284          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395207 Edge      nvme0q7
+252:        501          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395208 Edge      nvme0q8
+253:        444          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395209 Edge      nvme0q9
+254:        840          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395210 Edge      nvme0q10
+255:        364          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395211 Edge      nvme0q11
+256:        832          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 537395212 Edge      nvme0q12
+257:          5          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 675807232 Edge      nvkm
+258:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 940048384 Edge      ahci[0007:01:00.0]
+259:       8526          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661504 Edge      mlx5_async0@pci:0005:03:00.0
+260:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661505 Edge      mlx5_comp0@pci:0005:03:00.0
+261:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661506 Edge      mlx5_comp1@pci:0005:03:00.0
+262:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661507 Edge      mlx5_comp2@pci:0005:03:00.0
+263:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661508 Edge      mlx5_comp3@pci:0005:03:00.0
+264:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661509 Edge      mlx5_comp4@pci:0005:03:00.0
+265:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661510 Edge      mlx5_comp5@pci:0005:03:00.0
+266:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661511 Edge      mlx5_comp6@pci:0005:03:00.0
+267:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661512 Edge      mlx5_comp7@pci:0005:03:00.0
+268:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661513 Edge      mlx5_comp8@pci:0005:03:00.0
+269:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661514 Edge      mlx5_comp9@pci:0005:03:00.0
+270:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661515 Edge      mlx5_comp10@pci:0005:03:00.0
+271:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672661516 Edge      mlx5_comp11@pci:0005:03:00.0
+272:       8155          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663552 Edge      mlx5_async0@pci:0005:03:00.1
+273:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663553 Edge      mlx5_comp0@pci:0005:03:00.1
+274:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663554 Edge      mlx5_comp1@pci:0005:03:00.1
+275:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663555 Edge      mlx5_comp2@pci:0005:03:00.1
+276:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663556 Edge      mlx5_comp3@pci:0005:03:00.1
+277:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663557 Edge      mlx5_comp4@pci:0005:03:00.1
+278:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663558 Edge      mlx5_comp5@pci:0005:03:00.1
+279:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663559 Edge      mlx5_comp6@pci:0005:03:00.1
+280:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663560 Edge      mlx5_comp7@pci:0005:03:00.1
+281:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663561 Edge      mlx5_comp8@pci:0005:03:00.1
+282:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663562 Edge      mlx5_comp9@pci:0005:03:00.1
+283:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663563 Edge      mlx5_comp10@pci:0005:03:00.1
+284:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 672663564 Edge      mlx5_comp11@pci:0005:03:00.1
+285:          1          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 135282688 Edge      pciehp
+286:          1          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 135299072 Edge      pciehp
+287:          1          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 135315456 Edge      pciehp
+288:          1          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 135331840 Edge      pciehp
+289:          1          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 135348224 Edge      pciehp
+290:          0          0          0          0          0          0          0          0          0          0          0          0  c360000.pmc  24 Level     nvvrs-pseq-irq
+291:          0          0          0          0          0          0          0          0          0          0          0          0  nvvrs-pseq-irq   3 Edge      rtc-alarm
+292:       5053          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 135790592 Edge      enP1p3s0
+294:          0          0          0          0          0          0          0          0          0          0          0          0   PCI-MSI 240648192 Edge      rtl88x2ce
+IPI0:     11441      22172      21854      19397      12988      14262      13454      11701      19524      13563      10006      10921       Rescheduling interrupts
+IPI1:      4075       2362       1755       1257        751        667        653        623        723        694        700        656       Function call interrupts
+IPI2:         0          0          0          0          0          0          0          0          0          0          0          0       CPU stop interrupts
+IPI3:         0          0          0          0          0          0          0          0          0          0          0          0       CPU stop (for crash dump) interrupts
+IPI4:         0          0          0          0          0          0          0          0          0          0          0          0       Timer broadcast interrupts
+IPI5:      1770        586        849       1549        639        363        266        236        998       1159       1011        617       IRQ work interrupts
+IPI6:         0          0          0          0          0          0          0          0          0          0          0          0       CPU wake-up interrupts
+Err:          0
